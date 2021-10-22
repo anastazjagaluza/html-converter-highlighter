@@ -1,0 +1,31 @@
+#container {
+  position: relative;
+}
+
+textarea {
+        resize: none;
+        background-color: transparent;
+        z-index: 12345;
+}
+    
+#fake-text {
+        width: 30rem;
+        line-height: 1;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+      }
+p {
+  margin: 0.28rem 0.2rem;
+  color: transparent;
+}
+
+.highlight {
+  background-color: yellow;
+  color: black;
+}
+
+p, textarea {
+  font-size: 100%;
+  font-family: 'Arial', sans-serif;
+}
